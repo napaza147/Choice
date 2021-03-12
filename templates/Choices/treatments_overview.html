@@ -1,0 +1,24 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+<font color="burlywood"><h4 align="right">Tu ID: {{ participant_id }}</h4></font>
+Inclusión de advertencias
+{% endblock %}
+
+{% block content %}
+
+<p>
+¡Bien hecho! Ahora, pasemos al último cuestionario de esta parte.
+<li>Usted tendrá que escoger <b>cuál formato de cigarrillos compraría</b>.
+<li>Sin embargo, ahora <b>los precios están dados</b> y <b>NO se incrementarán</b>.
+<li>Por favor, continúe <b>eligiendo hasta que este cuestionario concluya</b>.
+
+</p>
+<p>
+<button class="otree-btn-next btn btn-primary">Siguiente</button>
+    {% include Constants.instructions_button %}
+</p>
+<br>
+{% include Constants.contact_template %}
+{% endblock %}

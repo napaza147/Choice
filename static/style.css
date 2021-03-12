@@ -1,0 +1,105 @@
+p{
+padding:0;
+margin-top:50px;
+text-align: center;
+font-size: 30px;
+font-family: sans serif;
+box-sizing: border-box;
+border-bottom:4px solid #555;
+position:absolute;
+margin-left: 20%;
+text-shadow: 0 20px 30px rgba(0,0,0,.8)
+border-radius:10px;
+}
+
+body{
+    background: #fff8dc:
+}
+
+
+.button{
+    padding:0;
+    margin:0;
+    width:250px;
+    height:250px;
+    text-align: center;
+    top:50px;
+    left:80px;
+    position:relative;
+    border:3px solid #555;
+    border-redius:5px
+    transition-duration:.60s;
+}
+
+.loosie{
+    box-shadow: 0 30px 60px rgba(0,0,0,.5);
+    background:url(loosie.png);
+    background-size: cover;
+}
+
+.loosie:hover{
+    box-shadow: 0 5px 30px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
+
+.package{
+    box-shadow: 0 30px 60px rgba(0,0,0,.5);
+    background:url(package.png);
+    background-size: cover;
+}
+
+.package:hover{
+    box-shadow: 0 5px 30px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
+
+.noconsumption{
+    box-shadow: 0 30px 60px rgba(0,0,0,.5);
+    background:url(no_consumption.png);
+    background-size: cover;
+}
+
+.noconsumption:hover{
+    box-shadow: 0 5px 30px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
+
+
+.box
+{
+    position: relative;
+    width: 820px;
+    height: 50px;
+    padding-top: 53px;
+}
+
+.box .price
+{
+    position: relative;
+    width:100px;
+    height:42px;
+    background: #000000;
+    float: left;
+    margin-left: 155px;
+    box sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 1.85em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.box .hidden
+{
+    position: relative;
+    width:100px;
+    height:50px;
+    background: #ffff;
+    float: left;
+    margin-left: 154px;
+    box sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}

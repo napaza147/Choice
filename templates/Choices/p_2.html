@@ -1,0 +1,42 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+¿Cuál formato de cigarrillos compraría dado el precio? Elija:
+{% endblock %}
+
+{% block content %}
+
+<head>
+    <title>Tratamiento</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="box">
+        <div class="price">
+            <div>S/ {{ price_loosie }}</div>
+        </div>
+        <div class="price">
+            <div>S/ {{ player.price_package }}</div>
+        </div>
+        <div class="hidden">
+            <div></div>
+        </div>
+    </div>
+</body>
+
+    <div>
+            <tr>
+                <a href=""></a><td><button name="choice_2_p" value=1 class="button loosie"></button></td>
+            </tr>
+            <tr>
+                <a href=""><td><button name="choice_2_p" value=2 class="button package"></button></td>
+            </tr>
+            <tr>
+                <a href=""><td><button name="choice_2_p" value=0 class="button noconsumption"></button></td>
+            </tr>
+
+    </div>
+
+
+{% endblock %}

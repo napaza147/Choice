@@ -1,0 +1,23 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+<font color="burlywood"><h4 align="right">Tu ID: {{ participant_id }}</h4></font>
+Dinámica de precios
+{% endblock %}
+
+{% block content %}
+
+<p>
+    A continuación, se le mostrará <b>tres opciones</b>.
+    <li>Usted tendrá que escoger <b>cuál formato de cigarrillos compraría</b>.
+<li>Asimismo, notará que, tras elegir algún formato, <b>su precio aumentará</b>. Por favor, <b>continúe escogiendo hasta que el cuestionario concluya</b>. <br>
+
+</p>
+<p>
+<button class="otree-btn-next btn btn-primary">Siguiente</button>
+        {% include Constants.instructions_button %}
+</p>
+<br>
+{% include Constants.contact_template %}
+{% endblock %}
