@@ -9,6 +9,9 @@ SESSION_CONFIGS = [
             app_sequence=['Quiz_1', 'Choices', 'Quiz_2', 'Biases']
      ),
 ]
+SESSION_CONFIG_DEFAULTS = dict(
+    real_world_currency_per_point=1.00, participation_fee=0.00, doc=""
+)
 PARTICIPANT_FIELDS=['non_smoker','e1','e2','e3','e4']
 REAL_WORLD_CURRENCY_CODE = ''
 USE_POINTS = False
