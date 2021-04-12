@@ -1,6 +1,6 @@
 __pycache__/
 *.py[cod]
-_builtin/
+_builtin/__pycache__/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
