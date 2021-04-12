@@ -1,1 +1,15 @@
 # Experimento cigarrillos: Parte II
+
+```python
+SESSION_CONFIGS = [
+     dict(
+        name='Quiz_1',
+        display_name="Experimento_1.0",
+        num_demo_participants=20,
+            app_sequence=['Quiz_1', 'Choices', 'Quiz_2', 'Biases']
+     ),
+]
+PARTICIPANT_FIELDS=['non_smoker','e1','e2','e3','e4']
+REAL_WORLD_CURRENCY_CODE = ''
+USE_POINTS = False
+```
